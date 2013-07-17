@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8" />
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=yes"> 
+<meta name="robots" content="index, follow">
+<meta content="" property="og:url">
+<meta property="og:title" content="The CMS is dead.">
+<meta property="og:description" content="The CMS is dead. Long live the CMS">
+<meta content="article" property="og:type">
+<meta property="og:image" content="<!-- @path icons/apple-icon-72.png">
+<meta content="The CMS is dead." property="og:site_name">
+<meta name="apple-mobile-web-app-title" content="byebyeCMS">
+<meta name="application-name" content="byebyeCMS">
+
+<meta name="viewport" content="width = device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width" />
+
+<title>The CMS is dead.</title>
+
+
+<link href='http://fonts.googleapis.com/css?family=Vollkorn|Share+Tech+Mono|Pacifico' rel='stylesheet' type='text/css'>
+
+<link rel='stylesheet' href='assets/scss/normalize.css'>
+<link rel='stylesheet' href='assets/scss/foundation.css'>
+<link rel='stylesheet' href='assets/css/static.css'>
+<link rel='stylesheet' href='assets/scss/static.css'>
+<link rel='stylesheet' href='assets/css/static-font.css'>
+
+
+
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+
+</head>
+<body>
+<div id="wrap">
+
+
+<div id="slide-1">
+<div class="splash">
+<section id="chapter-1">
+
+<p class="content">In the beginning, there was <abbr title="hypertext markup language">HTML</abbr>.</p>
+
+
+</section>
+</div><!-- /splash -->
+</div><!-- /slide-1 -->
+
+
+<div id="slide-2">
+<div class="splash">
+<section id="chapter-2">
+
+<p class="content">(and it was really good).</p>
+
+</section>
+</div><!-- /splash -->
+</div><!-- /slide-2 -->
+
+
+<div id="slide-3">
+<div class="splash plain">
+<section id="chapter-3">
+
+
+</section>
+</div><!-- /splash -->
+</div><!-- /slide-3 -->
+
+
+<div id="slide-4">
+<div class="splash plain">
+<section>
+
+<p>Then, we invented the dynamic website. <span class="disclaimer">(Things got complicated).</span></p>
+
+</section>
+</div><!-- /splash -->
+</div><!-- /slide-4 -->
+
+
+<div id="slide-5">
+<div class="splash plain">
+<section>
+
+<p>We invented the CMS, workflow management, and <abbr title="what you see is what you get">WYSIWYG</abbr> editors that spat out <abbr title="hypertext markup language">HTML</abbr>.</p>
+
+</section>
+</div><!-- /splash -->
+</div><!-- /slide-5 -->
+
+
+<div id="slide-6">
+<div class="splash">
+<section>
+
+<p>That meant databases had to come along for the ride.</p>
+
+</section>
+</div><!-- /splash -->
+</div><!-- /slide-6 -->
+
+<div id="slide-7">
+<div class="splash">
+<section>
+
+<p>Then we crossed our fingers that it wouldn&rsquo;t melt down when we got lots of traffic. </p>
+
+</section>
+</div><!-- /splash -->
+</div><!-- /slide-7 -->
+
+
+<div id="slide-8">
+<div class="splash">
+<section>
+
+
+<div class="background-icon"><i class="icon-emo-unhappy"></i></div>
+
+
+<p>There has to be a better way.</p>
+
+</section>
+</div><!-- /splash -->
+</div><!-- /slide-8 -->
+
+<div id="slide-9">
+<div class="splash">
+
+<section>
+
+<p>Fortunately, there is.</p>
+
+
+</section>
+</div><!-- /splash -->
+</div><!-- /slide-9 -->
+
+
+<div id="slide-11">
+<div class="splash plain">
+<section>
+
+<p>Static site generators enable us to build simpler, faster static sites, with robust templates and dynamic information delivery you&rsquo;d expect from a dynamic site. </p> 
+
+</section>
+</div><!-- /splash -->
+</div><!-- /slide-11 -->
+
+<div id="slide-12">
+<div class="splash">
+
+<section>
+
+<p>Sites like Healthcare.gov and Hawaii.gov, built with tools like Jekyll are leading this new movement.</p>
+
+
+</section>
+</div><!-- /splash -->
+</div><!-- /slide-12 -->
+
+
+<div id="slide-13">
+<div class="splash">
+
+<section>
+
+<div class="background-icon"><<i class="icon-doc"></i>/></div>
+
+<p>The dynamic website is dead. <span>Long live the (static) website.</span></p> 
+
+
+<a class="large button"><i class="icon-thumbs-up-alt"></i> Vote for our <span><abbr title="south by southwest">SXSW</abbr></span> Panel</a>
+
+</section>
+</div><!-- /splash -->
+</div><!-- /slide-13 -->
+
+
+  
+
+</div>
+<script src='assets/js/vendor/jquery.js'></script>
+<script src='assets/js/foundation.min.js'></script>
+
+<script src='assets/js/vendor/jquery.scrollTo.js'></script>
+<script src='assets/js/vendor/waypoints.min.js'></script>
+<script src='assets/js/vendor/navbar2.js'></script>
+
+
+  
+  <script>
+    $(document).foundation();
+  </script>
+
+
+
+<script>
+
+  $(document).ready(function(){
+      resizeDiv();
+  });
+
+  window.onresize = function(event) {
+      resizeDiv();
+  }
+
+  function resizeDiv() {
+      vpw = $(window).width(); 
+      vph = $(window).height(); 
+      $('.band').css({'min-height': vph + 'px'});
+      $('.splash').css({'min-height': vph + 'px'});
+      $('.splash.plain').css({'min-height': vph + 'px'});
+      $('section.content').css({'min-height': vph + 'px'});
+  }
+
+</script>
+
+<!--
+
+  
+
+-->
+
+
+</body>
+</html> 

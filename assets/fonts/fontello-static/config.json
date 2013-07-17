@@ -1,0 +1,55 @@
+{
+  "name": "static",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "glyphs": [
+    {
+      "uid": "c64623255a4a7c72436b199b05296c4f",
+      "css": "emo-happy",
+      "code": 59396,
+      "src": "fontelico"
+    },
+    {
+      "uid": "53ed8570225581269cd7eff5795e8bea",
+      "css": "emo-unhappy",
+      "code": 59393,
+      "src": "fontelico"
+    },
+    {
+      "uid": "043b585886018be7408f4c77c1a3759c",
+      "css": "emo-displeased",
+      "code": 59397,
+      "src": "fontelico"
+    },
+    {
+      "uid": "cbc328d1c779a2b9e3b1199d904199a5",
+      "css": "emo-grin",
+      "code": 59392,
+      "src": "fontelico"
+    },
+    {
+      "uid": "fc92480dedc439d274d4e3e4b425edf4",
+      "css": "emo-squint",
+      "code": 59395,
+      "src": "fontelico"
+    },
+    {
+      "uid": "2bd5f98482d86649958312ea2ab5bb40",
+      "css": "emo-laugh",
+      "code": 59394,
+      "src": "fontelico"
+    },
+    {
+      "uid": "5e2ab018e3044337bcef5f7e94098ea1",
+      "css": "thumbs-up-alt",
+      "code": 59398,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "1b5a5d7b7e3c71437f5a26befdd045ed",
+      "css": "doc",
+      "code": 59399,
+      "src": "fontawesome"
+    }
+  ]
+}

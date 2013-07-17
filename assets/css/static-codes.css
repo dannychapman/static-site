@@ -1,0 +1,9 @@
+
+.icon-emo-happy:before { content: '\e804'; } /* '' */
+.icon-emo-unhappy:before { content: '\e801'; } /* '' */
+.icon-emo-displeased:before { content: '\e805'; } /* '' */
+.icon-emo-grin:before { content: '\e800'; } /* '' */
+.icon-emo-squint:before { content: '\e803'; } /* '' */
+.icon-emo-laugh:before { content: '\e802'; } /* '' */
+.icon-thumbs-up-alt:before { content: '\e806'; } /* '' */
+.icon-doc:before { content: '\e807'; } /* '' */

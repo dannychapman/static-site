@@ -1,0 +1,228 @@
+/*** Bye Bye CMS ***/
+/*** Danny Chapman ***/
+/*** 2013 ***/
+/*** General ***/
+html, body {
+  font-family: 'Vollkorn', serif;
+  color: #fff;
+  font-weight: normal;
+  font-size: 34px; }
+
+/*** Fonts
+
+
+font-family: 'Grand Hotel', cursive;
+font-family: 'Vollkorn', serif;
+font-family: 'Share Tech Mono', sans-serif;
+
+***/
+#wrap {
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  text-align: center; }
+  #wrap p {
+    background: rgba(0, 0, 0, 0.65);
+    padding: .5em;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8); }
+  #wrap #slide-6 p {
+    font-family: 'Share Tech Mono', sans-serif;
+    background: #000;
+    color: #00AB00; }
+  #wrap #slide-9 p {
+    background: none;
+    color: #444;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.65em;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+  #wrap #slide-12 p {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.95);
+    color: #333; }
+  #wrap #slide-13 p {
+    background: none;
+    color: #444;
+    padding-bottom: 3em; }
+    #wrap #slide-13 p span {
+      display: block; }
+
+.row {
+  max-width: 23em;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
+/*** Clearing Floats - Dan Cederholm ***/
+.group:after, #page:after, html:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  /* My addition. Not sure it's a good idea, but there you go. */
+  clear: both;
+  visibility: hidden; }
+
+#wrap abbr[title], #wrap abbr {
+  font-weight: inherit;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #fff; }
+
+/*** End Sticky Nav ***/
+/*** General Page ***/
+.focus {
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.29) 16%, rgba(255, 255, 255, 0.01) 71%, rgba(255, 255, 255, 0) 72%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(16%, rgba(255, 255, 255, 0.29)), color-stop(71%, rgba(255, 255, 255, 0.01)), color-stop(72%, rgba(255, 255, 255, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.29) 16%, rgba(255, 255, 255, 0.01) 71%, rgba(255, 255, 255, 0) 72%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.29) 16%, rgba(255, 255, 255, 0.01) 71%, rgba(255, 255, 255, 0) 72%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.29) 16%, rgba(255, 255, 255, 0.01) 71%, rgba(255, 255, 255, 0) 72%);
+  /* IE10+ */
+  background: radial, ellipse center, rgba(255, 255, 255, 0.29) 16%, rgba(255, 255, 255, 0.01) 71%, rgba(255, 255, 255, 0) 72%;
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4affffff', endColorstr='#00ffffff',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  height: 100%; }
+
+/*** General Content ***/
+#wrap ul {
+  list-style-position: outside;
+  margin-left: 1.1em;
+  list-style-type: square; }
+
+.splash {
+  padding: 6em .5em;
+  position: relative;
+  background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 23%, rgba(0, 0, 0, 0.06) 44%, rgba(0, 0, 0, 0.21) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(23%, rgba(0, 0, 0, 0)), color-stop(44%, rgba(0, 0, 0, 0.06)), color-stop(100%, rgba(0, 0, 0, 0.21)));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 23%, rgba(0, 0, 0, 0.06) 44%, rgba(0, 0, 0, 0.41) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 23%, rgba(0, 0, 0, 0.06) 44%, rgba(0, 0, 0, 0.21) 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 23%, rgba(0, 0, 0, 0.06) 44%, rgba(0, 0, 0, 0.21) 100%);
+  /* IE10+ */
+  background: radial, ellipse center, rgba(0, 0, 0, 0) 23%, rgba(0, 0, 0, 0.06) 44%, rgba(0, 0, 0, 0.21) 100%;
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#36000000',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  @media (min-width: 640px) {
+    .splash {
+      padding: 10em 0 4em 0; } }
+  .splash.plain {
+    background: none;
+    background: transparent; }
+
+.button {
+  background: #3BC8FF;
+  margin: 1em auto;
+  color: #fff;
+  border: none;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: none;
+  border-radius: .15em;
+  font-weight: 500;
+  font-size: 1.6em;
+  font-family: 'Pacifico', cursive; }
+  .button span {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold; }
+  .button:hover, .button:active {
+    background: #FF8700; }
+
+section {
+  margin: 0 auto;
+  max-width: 20em;
+  position: relative; }
+
+.disclaimer {
+  font-size: .7em;
+  opacity: .9;
+  display: block; }
+
+/*** Backgrounds ***/
+.background-icon {
+  color: #444;
+  font-size: 5em;
+  padding: 0 .5em 0 .5em; }
+
+#slide-8 .background-icon {
+  padding-bottom: 1em; }
+
+#slide-13 .background-icon {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3), 0 0 20px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.3), 0 0 50px rgba(255, 255, 255, 0.3); }
+
+#slide-1 {
+  background: url(../images/backgrounds/earth.jpg) center no-repeat fixed; }
+
+#slide-2 {
+  background: url(../images/backgrounds/fireworks.jpg) center no-repeat fixed; }
+
+#slide-3 {
+  background: url(../images/backgrounds/first.png) bottom left no-repeat fixed; }
+
+#slide-4 {
+  background: #fff; }
+
+#slide-5 {
+  background: url(../images/backgrounds/complicated.jpg) center no-repeat fixed; }
+
+#slide-6 {
+  background: url(../images/backgrounds/mainframe.jpg) center left no-repeat fixed; }
+
+#slide-7 {
+  background: url(../images/backgrounds/nuclear.jpg) center left no-repeat fixed; }
+
+#slide-8 {
+  background: #FFB824; }
+
+#slide-9 {
+  background: #B5FA52; }
+
+#slide-10 {
+  background: url(../images/backgrounds/files.jpg) center left no-repeat fixed; }
+
+#slide-11 {
+  background: url(../images/backgrounds/files.jpg) center left no-repeat fixed; }
+
+#slide-12 {
+  background: url(../images/backgrounds/healthcare.png) center left no-repeat fixed; }
+
+#slide-13 {
+  background: #fff; }
+
+#slide-1, #slide-2, #slide-3, #slide-4, #slide-5, #slide-6, #slide-7, #slide-8, #slide-9, #slide-10, #slide-11, #slide-12 {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  #slide-1, #slide-2, #slide-3, #slide-5, #slide-6, #slide-7, #slide-9, #slide-10, #slide-11, #slide-12 {
+    background-attachment: scroll; }
+
+  #slide-10 {
+    background: none; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  #slide-1, #slide-2, #slide-3, #slide-5, #slide-6, #slide-7, #slide-9, #slide-10, #slide-11, #slide-12 {
+    background-attachment: scroll; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  #slide-1, #slide-2, #slide-3, #slide-5, #slide-6, #slide-7, #slide-9, #slide-10, #slide-11, #slide-12 {
+    background-attachment: scroll; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  #slide-1, #slide-2, #slide-3, #slide-5, #slide-6, #slide-7, #slide-9, #slide-10, #slide-11, #slide-12 {
+    background-attachment: scroll; } }
