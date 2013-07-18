@@ -180,6 +180,20 @@ section {
 #slide-13 .background-icon {
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.3), 0 0 20px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.3), 0 0 50px rgba(255, 255, 255, 0.3); }
 
+#slide-13 dl {
+  text-align: left;
+  font-size: .4em;
+  color: #444;
+  font-weight: 100;
+  margin: 2em auto 0 auto;
+  max-width: 48em; }
+  #slide-13 dl a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    color: #777; }
+    #slide-13 dl a:hover {
+      color: #FF8700;
+      border-bottom: 1px solid #3BC8FF; }
+
 #slide-1 {
   background: url(../images/backgrounds/earth.jpg) center no-repeat fixed; }
 
