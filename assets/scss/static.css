@@ -28,10 +28,25 @@ font-family: 'Share Tech Mono', sans-serif;
     text-align: center;
     display: inline-block;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8); }
+  #wrap #slide-3 p {
+    background: #0408B3;
+    color: #fff;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+  #wrap #slide-4 p {
+    background: #990000;
+    color: #fff; }
+  #wrap #slide-5 p {
+    background: none;
+    color: #222;
+    text-shadow: none; }
   #wrap #slide-6 p {
     font-family: 'Share Tech Mono', sans-serif;
     background: #000;
     color: #00AB00; }
+  #wrap #slide-8 p {
+    background: none;
+    color: #444;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9); }
   #wrap #slide-9 p {
     background: none;
     color: #444;
@@ -121,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
   /* IE6-9 fallback on horizontal gradient */ }
   @media (min-width: 640px) {
     .splash {
-      padding: 10em 0 4em 0; } }
+      padding: 20% 0 4em 0; } }
   .splash.plain {
     background: none;
     background: transparent; }
@@ -175,10 +190,10 @@ section {
   background: url(../images/backgrounds/first.png) bottom left no-repeat fixed; }
 
 #slide-4 {
-  background: #fff; }
+  background: url(../images/backgrounds/complicated.jpg) center no-repeat fixed; }
 
 #slide-5 {
-  background: url(../images/backgrounds/complicated.jpg) center no-repeat fixed; }
+  background: #fff; }
 
 #slide-6 {
   background: url(../images/backgrounds/mainframe.jpg) center left no-repeat fixed; }
